@@ -10,7 +10,7 @@ on:
 #     - master
   schedule:
     # 아침 8시는 UTC 로는 11pm 
-    - cron: "0 05 20 * *"
+    - cron: "23 05 * * *"
 
 jobs:
   build:
